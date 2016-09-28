@@ -1,14 +1,14 @@
 {
-  "name": "mongoose-materialized",
-  "description": "Materialized path hierarchy for mongoose",
-  "version": "0.1.8",
-  "homepage": "https://github.com/janez89/mongoose-materialized",
+  "name": "materialized-mongoose",
+  "description": "Materialized path hierarchy for mongoose. Forked from mongoose-materialized",
+  "version": "0.1.0",
+  "homepage": "https://github.com/BobbyDigitalStudios/materialized-mongoose",
   "repository": {
     "type": "git",
-    "url": "git://github.com/janez89/mongoose-materialized.git"
+    "url": "git@github.com:BobbyDigitalStudios/materialized-mongoose.git"
   },
   "main": "index.js",
-  "engine": "node >= 0.6.0",
+  "engine": "node >= 4.0.0",
   "dependencies": {
     "async": "~0.9.0",
     "mongoose": "~3.6.0"
@@ -33,9 +33,9 @@
     "mongodb"
   ],
   "author" : {
-    "name" : "Janos Meszaros (Janez89)",
-    "email" : "m.janee@gmail.com",
-    "url" : "https://github.com/janez89/"
+    "name" : "Ztripez Helltröm)",
+    "email" : "ztripez@bobby.se",
+    "url" : "https://github.com/BobbyDigitalStudios"
   },
   "license": "MIT"
 }
