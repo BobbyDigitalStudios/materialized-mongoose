@@ -2,6 +2,8 @@ services:
   - mongodb
 language: node_js
 node_js:
+  - "6.7.0"
+  - "4.4.0"
   - "0.11"
   - "0.10"
   - "0.8"
