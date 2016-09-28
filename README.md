@@ -1,6 +1,6 @@
-# Mongoose Materialized
-[![Build Status](https://travis-ci.org/BobbyDigitalStudios/materialized-mongoose.svg?branch=master)](https://travis-ci.org/janez89/mongoose-materialized)
-[![NPM version](https://badge.fury.io/js/materialized-materialized.png)](http://badge.fury.io/js/mongoose-materialized)
+# Materialized Mongoose
+[![Build Status](https://travis-ci.org/BobbyDigitalStudios/materialized-mongoose.svg?branch=master)](https://travis-ci.org/BobbyDigitalStudios/materialized-mongoose)
+[![NPM version](https://badge.fury.io/js/materialized-mongoose.png)](http://badge.fury.io/js/materialized-mongoose)
 
 This plugin was forked from https://github.com/janez89/mongoose-materialized since there has been no real development activity for a long time.
 
