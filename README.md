@@ -1,5 +1,5 @@
 # Mongoose Materialized
-[![Build Status](https://travis-ci.org/BobbyDigitalStudios/materialized-mongoose?branch=master)](https://travis-ci.org/janez89/mongoose-materialized)
+[![Build Status](https://travis-ci.org/BobbyDigitalStudios/materialized-mongoose.svg?branch=master)](https://travis-ci.org/janez89/mongoose-materialized)
 [![NPM version](https://badge.fury.io/js/materialized-materialized.png)](http://badge.fury.io/js/mongoose-materialized)
 
 This plugin was forked from https://github.com/janez89/mongoose-materialized since there has been no real development activity for a long time.
@@ -373,73 +373,5 @@ Inspired by seamless data management.
 * [MongoDB Model Tree Structures with Materialized Paths](http://docs.mongodb.org/manual/tutorial/model-tree-structures-with-materialized-paths/)
 * [Inspired by mongoose nested set](https://github.com/groupdock/mongoose-nested-set) By @groupdock
 * [MongooseJS Doc](http://mongoosejs.com/)
-
-[Go to contents](#overview)
-
----
-
-### Changelog
-
-### Aug 15, 2014 - version: 0.1.8
-* added new static methods: **ToArrayTree(), GetArrayTree(), GetFullArrayTree()**
-* added new methods: **getArrayTree()**
-* added new tests
-* enhancements (toTree, parentId type inherits from _id)
-* updated README.md and package dependencies
-
-### July 30, 2014 - version: 0.1.7
-* fixed remove parent with `parentId=null` bug
-* added new tests
-* updated README.md
-
-### Dec 19, 2013 - version: 0.1.6
-* added requested function: skip, limit for getDescendants, getChildren, getAncestors, getSiblings
-* in tree construction (getTree, buildTree) skip, limit methods is not recommended for use
-
-
-### Oct 15, 2013 - version: 0.1.5
-* fixed typo in 153 line.
-
-### Jun 25, 2013 - version: 0.1.4
-* ToTree use virtuals
-* better depth solution
-
-### Jun 16, 2013 - version: 0.1.3
-* added **GetFullTree** static method
-* added prepare for Building - use: Building({ remove: { lt: 1, gt: 1, level: 1 }, function () { });
-* added GetFullTree test
-
-### Jun 16, 2013 - version: 0.1.2
-* added **getTree** method and **GetTree** static method
-* added **Remove** static method for remove with condition
-* fixed: getChildren now return promise
-* fixed: GetRoots function call
-* fixed: GetChildren function call
-* Building method already work
-* Building tests
-* updated README.md
-
-#### Jun 14, 2013 - version: 0.1.1
-* added ToTree test
-* tempory removed Building static method (thown not implemented error if use)
-* fixed: ToTree now return json document. (Not mongoose document)
-* updated README.md
-
-#### Jun 10, 2013 - version: 0.1.0
-* currently under construction
-* added test
-* static methods
-* before save verifies the existence of parent element
-* Query supported methods
-* added Travis CI build status
-* updated README.md
-
-[Go to contents](#overview)
-
----
-
-### authors
-
-* Janos Meszaros: [https://github.com/janez89](https://github.com/janez89)
 
 [Go to contents](#overview)
