@@ -1,0 +1,8 @@
+version: '2'
+services: 
+    node: 
+        build: .
+        volumes: 
+            - ./:/app
+            - /app/node_modules
+        command: npm publish
