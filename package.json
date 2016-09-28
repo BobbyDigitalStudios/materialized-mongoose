@@ -8,7 +8,7 @@
     "url": "git@github.com:BobbyDigitalStudios/materialized-mongoose.git"
   },
   "main": "index.js",
-  "engine": "node >= 0.6.0",
+  "engine": "node >= 4.0.0",
   "dependencies": {
     "async": "~0.9.0",
     "mongoose": "~3.6.0"
