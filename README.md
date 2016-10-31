@@ -15,8 +15,6 @@ A mongoose plugin for the materialized paths.
   * [Static methods](#static-methods)
   * [Methods](#methods)
 * [Related Links](#related-links)
-* [Changelog](#changelog)
-* [Authors](#authors)
 
 ---
 
