@@ -469,12 +469,10 @@ describe('Matarialized test', function() {
     })
 
     it('should drop database', function(done){
-      db.connection.db.executeDbCommand({
-        dropDatabase: 1
-      }, function(err, result) {
+      db.connection.db.dropDatabase(function(err,result){
         assert.strictEqual(err, null)
         done()
-      })
+      });
     })
 
   })
@@ -816,12 +814,10 @@ describe('Alternative tests', function() {
     })
 
     it('should drop database', function(done){
-      db.connection.db.executeDbCommand({
-        dropDatabase: 1
-      }, function(err, result) {
+      db.connection.db.dropDatabase(function(err,result){
         assert.strictEqual(err, null)
         done()
-      })
+      });
     })
 
   })

@@ -1,7 +1,7 @@
 {
   "name": "materialized-mongoose",
   "description": "Materialized path hierarchy for mongoose. Forked from mongoose-materialized",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "homepage": "https://github.com/BobbyDigitalStudios/materialized-mongoose",
   "repository": {
     "type": "git",
@@ -10,8 +10,8 @@
   "main": "index.js",
   "engine": "node >= 4.0.0",
   "dependencies": {
-    "async": "~0.9.0",
-    "mongoose": "~3.6.0"
+    "async": "^2.4.1",
+    "mongoose": "^4.10.6"
   },
   "devDependencies": {
     "mocha": "~1.8.2",
@@ -32,10 +32,10 @@
     "path",
     "mongodb"
   ],
-  "author" : {
-    "name" : "Ztripez Helltröm)",
-    "email" : "ztripez@bobby.se",
-    "url" : "https://github.com/BobbyDigitalStudios"
+  "author": {
+    "name": "Ztripez Helltröm)",
+    "email": "ztripez@bobby.se",
+    "url": "https://github.com/BobbyDigitalStudios"
   },
   "license": "MIT"
 }
